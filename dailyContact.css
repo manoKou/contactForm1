@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.M-lnd-temp-2-32-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #6e4ead;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 400px) {
+  .M-lnd-temp-2-32-wrapper {
+    padding: 8px;
+  }
+}
+.M-lnd-temp-2-32-text-cont {
+  display: inline-block;
+  max-width: 1170px;
+  background-color: inherit;
+  -webkit-box-shadow: 1px 7px 56px -2px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 1px 7px 56px -2px rgba(0, 0, 0, 0.43);
+  box-shadow: 1px 7px 56px -2px rgba(0, 0, 0, 0.43);
+}
+.M-lnd-temp-2-32-header-cont {
+  text-align: center;
+  padding: 25px;
+  background-color: inherit;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4));
+}
+@media screen and (max-width: 360px) {
+  .M-lnd-temp-2-32-header-cont {
+    padding: 10px;
+  }
+}
+.M-lnd-temp-2-32-header {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 100;
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-header-subtext {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 10px;
+  max-width: 400px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-first-name-inp-div,
+.M-lnd-temp-2-32-last-name-inp-div,
+.M-lnd-temp-2-32-email-inp-div,
+.M-lnd-temp-2-32-msg-inp-div {
+  background-color: inherit;
+}
+.M-lnd-temp-2-32-first-name-inp {
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: inherit;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-last-name-inp {
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: inherit;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-email-inp {
+  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: inherit;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-msg-inp {
+  padding: 20px;
+  min-height: 240px;
+  width: 100%;
+  max-width: 100%;
+  resize: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  background-color: inherit;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-first-name-inp::-webkit-input-placeholder,
+.M-lnd-temp-2-32-last-name-inp::-webkit-input-placeholder,
+.M-lnd-temp-2-32-email-inp::-webkit-input-placeholder,
+.M-lnd-temp-2-32-msg-inp::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-first-name-inp:-ms-input-placeholder,
+.M-lnd-temp-2-32-last-name-inp:-ms-input-placeholder,
+.M-lnd-temp-2-32-email-inp:-ms-input-placeholder,
+.M-lnd-temp-2-32-msg-inp:-ms-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-first-name-inp::placeholder,
+.M-lnd-temp-2-32-last-name-inp::placeholder,
+.M-lnd-temp-2-32-email-inp::placeholder,
+.M-lnd-temp-2-32-msg-inp::placeholder {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.M-lnd-temp-2-32-button-cont {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  max-width: 100%;
+  padding: 20px;
+}
+.M-lnd-temp-2-32-button-cont:hover {
+  cursor: pointer;
+}
+.M-lnd-temp-2-32-button-text {
+  color: #471d99;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+/* */
